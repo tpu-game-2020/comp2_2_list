@@ -7,7 +7,9 @@
 node* add_node(node* p, int data)
 {
 	// ToDo: pの前にdataの値を持つノードを追加する
-	return NULL;
+	node* ret = (node*)malloc(sizeof(node));
+	
+	return ret;
 }
 
 //
@@ -16,4 +18,7 @@ node* add_node(node* p, int data)
 void delete_all(node* p)
 {
 	// ToDo: pで始まるリストのメモリを解放してください
+	while () {
+
+	}
 }
