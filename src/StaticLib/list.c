@@ -23,7 +23,7 @@ void delete_all(node* p)
 	// ToDo: p‚ÅŽn‚Ü‚éƒŠƒXƒg‚Ìƒƒ‚ƒŠ‚ð‰ð•ú‚µ‚Ä‚­‚¾‚³‚¢
 	while (p) {
 		node* next = p->next;
-		free,p;
+		free(p);
 		p = next;
 	}
 }
